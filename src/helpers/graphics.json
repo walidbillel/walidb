@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "image": "./graphics-img/BLM.jpg",
+        "description": "Black Lives Matter"
+    },
+    {
+        "id": 2,
+        "image": "./graphics-img/gurus.jpg",
+        "description": "Message Gurus"
+    },
+    {
+        "id": 3,
+        "image": "./graphics-img/heart.jpg",
+        "description": "All Heart Logo"
+    },
+    {
+        "id": 4,
+        "image": "./graphics-img/centric-saftey.jpg",
+        "description": "Centric Logo"
+    },
+    {
+        "id": 5,
+        "image": "./graphics-img/hobort.jpg",
+        "description": "HobortLogo"
+    },
+    {
+        "id": 6,
+        "image": "./graphics-img/nullaki-logo.jpg",
+        "description": "Nullaki Logo"
+    },
+    {
+        "id": 7,
+        "image": "./graphics-img/planet.jpg",
+        "description": "Planet Illustration"
+    },
+    {
+        "id": 8,
+        "image": "./graphics-img/hivedrive.jpg",
+        "description": "Spray Label"
+    },
+    {
+        "id": 9,
+        "image": "./graphics-img/logp.jpg",
+        "description": "HiveDrive  Logo"
+    },
+    {
+        "id": 10,
+        "image": "./graphics-img/kifen.jpg",
+        "description": "Kifen  Ad"
+    },
+    {
+        "id": 11,
+        "image": "./graphics-img/kool-ground.jpg",
+        "description": "Cool Ground  UX"
+    },
+    {
+        "id": 12,
+        "image": "./graphics-img/wolf-moon.jpg",
+        "description": "Wold Moon Illustration"
+    },
+    {
+        "id": 13,
+        "image": "./graphics-img/PM-redesigned.jpg",
+        "description": "PM Logo"
+    },
+    {
+        "id": 14,
+        "image": "./graphics-img/moonstar.jpg",
+        "description": "Moon Illustration"
+    },
+    {
+        "id": 15,
+        "image": "./graphics-img/bcard.jpg",
+        "description": "Business Card Design"
+    },
+    {
+        "id": 16,
+        "image": "./graphics-img/bcard2.jpg",
+        "description": "Business Card Design"
+    },
+    {
+        "id": 17,
+        "image": "./graphics-img/Abstract3.jpg",
+        "description": "Abstract Paint"
+    },
+    {
+        "id": 18,
+        "image": "./graphics-img/Abstract4.jpg",
+        "description": "Abstract Paint"
+    },
+    {
+        "id": 19,
+        "image": "./graphics-img/Abstract5.jpg",
+        "description": "Abstract Paint"
+    },
+    {
+        "id": 20,
+        "image": "./graphics-img/Welcome.jpg",
+        "description": "Algerian Recipe UX Design"
+    },
+    {
+        "id": 21,
+        "image": "./graphics-img/hivedrive-wireframe.jpg",
+        "description": "HiveDrive UX Design"
+    },
+    {
+        "id": 22,
+        "image": "./graphics-img/hivedrive-wireframe2.jpg",
+        "description": "HiveDrive UX Design"
+    },
+    {
+        "id": 23,
+        "image": "./graphics-img/iscale.jpg",
+        "description": "iScale UX Design"
+    },
+    {
+        "id": 24,
+        "image": "./graphics-img/techmo.jpg",
+        "description": "Techmo Logo"
+    }
+]

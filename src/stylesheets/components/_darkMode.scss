@@ -1,0 +1,35 @@
+.dark-mode-toggle {
+  display: flex;
+  margin: 0 auto;
+  position: fixed;
+  top: 17px;
+  right: 25px;
+  z-index: 1001;
+
+  & > button {
+    color: $secondary-color;
+    background-color: $color-white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100%;
+    transition: all 0.2s;
+    &:last-child {
+      color: $color-white;
+      background-color: $primary-color-dark;
+    }
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.dmcheck {
+  display: none;
+}

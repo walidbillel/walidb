@@ -1,0 +1,81 @@
+.hero {
+  background-color: $color-white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+
+  &__info {
+    @include centerAbsolute;
+    width: 100%;
+    text-align: center;
+    color: $color-black;
+  }
+
+  //   Resume btn styling
+  &__btn {
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin: 5px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    background-color: inherit;
+    cursor: pointer;
+    color: $color-black;
+    transition: all 0.5s ease-in-out;
+    span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      &:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+    }
+    &:hover {
+      background-color: $secondary-color;
+      span {
+        padding-right: 25px;
+        &:after {
+          opacity: 1;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+.animate-pop-in {
+  animation: pop-in 0.9s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  opacity: 0;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-6rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .hero {
+    height: 60vh;
+
+    &__name {
+      font-size: 20px;
+    }
+  }
+}

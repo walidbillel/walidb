@@ -1,0 +1,28 @@
+.skills {
+  padding: 50px;
+  width: 100%;
+
+  text-align: center;
+
+  &__title {
+    letter-spacing: 8px;
+    padding: 30px;
+    text-transform: uppercase;
+  }
+}
+.tech-icons {
+  width: 50px;
+  height: 50px;
+  &:hover {
+    animation: spin 1s linear 0.1s infinite alternate;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

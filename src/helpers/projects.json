@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "projectName": "HAPPENIN'",
+        "description": "An Event Search Engine for browsing events based on user queries. Each event will display tickets and directions to venues.",
+        "technologies": "HTML5, CSS3, JAVASCRIPT, JQUERY, AJAX",
+        "gitHub": "https://github.com/walidbillel/project1-WABD-",
+        "appLink": "https://walidbillel.github.io/project1-WABD-/",
+        "image": "./projects-img/happening.jpg"
+    },
+    {
+        "id": 2,
+        "projectName": "Vriend",
+        "description": "A Social platform where users can follow each other and post messages on one anothers walls.",
+        "technologies": "HTML5, CSS3, JAVASCRIPT, JQUERY, NODE JS, SEQUELIZE",
+        "gitHub": "https://github.com/walidbillel/vfriend-book-heroku",
+        "appLink": "https://vfriend-book.herokuapp.com/",
+        "image": "./projects-img/vriend.jpg"
+    },
+    {
+        "id": 3,
+        "projectName": "Vriend 2",
+        "description": "A Social platform where users can follow, search, and post YouTube videos on their and others walls.",
+        "technologies": "HTML5, CSS3, JAVASCRIPT, REACT JS, MONGO DB, NODE JS",
+        "gitHub": "https://github.com/Cbutler64/Vfriend-Videos",
+        "appLink": "https://fathomless-dawn-58912.herokuapp.com/",
+        "image": "./projects-img/vriend2.jpg"
+    },
+    {
+        "id": 4,
+        "projectName": "Burger",
+        "description": "CRUD app where user can add burgers and eat them.",
+        "technologies": "HTML5, CSS3, JAVASCRIPT, NODE JS, HANDLEBARS JS, MYSQL",
+        "gitHub": "https://github.com/walidbillel/burger",
+        "appLink": "https://burger-eater0.herokuapp.com/",
+        "image": "./projects-img/burger.jpg"
+    },
+    {
+        "id": 5,
+        "projectName": "Clicky Game",
+        "description": "A React based game where the user is allowed to click once on each card while they change on each click. ",
+        "technologies": "HTML5, CSS3, JAVASCRIPT, REACT JS",
+        "gitHub": "https://github.com/walidbillel/Clicky-Game-Heros",
+        "appLink": "https://clicky-game-walid.herokuapp.com/",
+        "image": "./projects-img/clicky.jpg"
+    },
+    {
+        "id": 6,
+        "projectName": "Friend Finder",
+        "description": "A JavaScript app that randomize matches from FRIENDS CAST based on the user's inputs.",
+        "technologies": "HTML5, CSS3, JAVASCRIPT, NODE JS",
+        "gitHub": "https://github.com/walidbillel/FriendFinder",
+        "appLink": "https://friend-finder-wb.herokuapp.com/",
+        "image": "./projects-img/finder.jpg"
+    },
+    {
+        "id": 7,
+        "projectName": "Crystal Game",
+        "description": "A JavaScript game where the user has to match a number by clicking on crystals. Every round is randomized.",
+        "technologies": "HTML5, CSS3, JAVASCRIPT, JQUERY",
+        "gitHub": "https://github.com/walidbillel/unit-4-game",
+        "appLink": "https://walidbillel.github.io/unit-4-game/",
+        "image": "./projects-img/crystal.jpg"
+    },
+    {
+        "id": 8,
+        "projectName": "Trivia Game",
+        "description": "A JavaScript game containing multiple questions with a timer for each answer. At the end, the user will see his final score.",
+        "technologies": "HTML5, CSS3, JAVASCRIPT, JQUERY",
+        "gitHub": "https://github.com/walidbillel/TriviaGame",
+        "appLink": "https://walidbillel.github.io/TriviaGame/",
+        "image": "./projects-img/trivia.jpg"
+    },
+    {
+        "id": 9,
+        "projectName": "News Scraper",
+        "description": "A JavaScript app that scrapes the NYT articles, store them, then display them to the user who can leave comments.",
+        "technologies": "MongoDB, Cheerio, JQUERY, AJAX",
+        "gitHub": "https://github.com/walidbillel/news-scraper",
+        "appLink": "https://new-york-times-scraper-walid.herokuapp.com/",
+        "image": "./projects-img/scraper.jpg"
+    },
+    {
+        "id": 10,
+        "projectName": "Train Track",
+        "description": "A JavaScript app that calculate the train arrival based on the user inputs and store it in real-time database.",
+        "technologies": "Firebase, javascript, JQUERY",
+        "gitHub": "https://github.com/walidbillel/Train-Scheduler-",
+        "appLink": "https://walidbillel.github.io/Train-Scheduler-/",
+        "image": "./projects-img/train.jpg"
+    }
+]

@@ -1,0 +1,176 @@
+body.light-mode {
+  .navigation {
+    background-color: $color-white;
+    &__logo {
+      content: url(../assets/logo-for-white.svg);
+    }
+  }
+
+  .socialMedia {
+    &__link {
+      color: $color-black;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .hero {
+    background-color: $color-white;
+    &__info {
+      color: $color-black;
+    }
+  }
+
+  .skills {
+    background-color: $color-white;
+    color: $color-black;
+  }
+
+  .card {
+    .back {
+      color: $color-black;
+    }
+    h4 {
+      color: $color-black;
+    }
+    button {
+      color: $color-black;
+    }
+  }
+
+  .projects {
+    &__title {
+      color: $color-black;
+    }
+  }
+
+  .graphics {
+    color: $color-black;
+  }
+}
+
+body.dark-mode {
+  background-color: $color-black;
+  .navigation {
+    background-color: $color-black;
+    &__logo {
+      content: url(../assets/logo-for-black.svg);
+    }
+    &__link {
+      color: $color-white;
+
+      &:hover,
+      &:active {
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .socialMedia {
+    &__link {
+      color: $color-white;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .hero {
+    background-color: $color-black;
+    &__info {
+      color: $color-white;
+    }
+
+    &__btn {
+      color: $color-white;
+    }
+  }
+  .about {
+    &__title {
+      color: $color-white;
+    }
+    &__bio {
+      &--stack {
+        background-color: $secondary-color;
+      }
+      &--info {
+        background-color: $primary-color;
+        color: $color-white;
+        a {
+          color: $secondary-color;
+          &:hover {
+            color: $color-white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .skills {
+    background-color: $color-black;
+    color: $color-white;
+    border: none;
+  }
+  .card {
+    .back {
+      color: $color-white;
+    }
+    h4 {
+      color: $color-white;
+    }
+    button {
+      color: $color-white;
+      &:hover {
+        background-color: $primary-color-dark;
+      }
+    }
+    .front {
+      background: $primary-color-dark;
+      color: $color-white;
+    }
+  }
+
+  .projects {
+    &__title {
+      color: $color-white;
+    }
+  }
+  .graphics {
+    color: $color-white;
+  }
+
+  .contact {
+    color: $color-white;
+    &__bg {
+      background-color: $primary-color;
+    }
+
+    &__form {
+      &--input {
+        input,
+        textarea {
+          box-shadow: 2px 2px 3px $primary-color-white-light;
+        }
+        button {
+          color: $color-white;
+        }
+      }
+    }
+  }
+
+  .footer {
+    background-color: $primary-color-white-light;
+    color: $color-black;
+    &__logo {
+      content: url(../assets//logo-for-white.svg);
+    }
+
+    &__icon {
+      color: $color-black;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}

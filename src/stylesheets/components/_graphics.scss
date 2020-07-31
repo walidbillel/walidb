@@ -1,0 +1,19 @@
+.graphics {
+  padding: 20px;
+  text-align: center;
+  &__title {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 30px;
+  }
+  &__list {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 0 10px;
+    grid-auto-rows: 40px;
+    img {
+      width: 250px;
+    }
+  }
+}

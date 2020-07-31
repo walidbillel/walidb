@@ -1,0 +1,30 @@
+.socialMedia {
+  position: fixed;
+  right: 20px;
+  top: 80px;
+  z-index: 1001;
+  &__link {
+    display: block;
+    text-decoration: none;
+    color: $color-black;
+    padding: 5px;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0, 0.9, 0.3, 1.2);
+    &:hover {
+      color: $secondary-color;
+      transform: rotate(25deg) scale(1.5);
+    }
+  }
+
+  &__icon {
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .socialMedia {
+    top: 80px;
+  }
+}
