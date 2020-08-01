@@ -2,31 +2,34 @@ import React from 'react';
 import useFormFields from '../../helpers/useFormFields';
 import emailjs from 'emailjs-com';
 
+const initialState = {
+  name: '',
+  email: '',
+  message: '',
+};
+
 const Contact = () => {
-  const [fields, handleFieldChange] = useFormFields({
-    name: '',
-    email: '',
-    message: '',
-  });
+  const { fields, setFields, resetFields } = useFormFields(initialState);
 
   const submitForm = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        'contact_form',
-        'portfolio_email',
-        e.target,
-        'user_3kTZWLWPDMYKracgq5h6D'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // emailjs
+    //   .sendForm(
+    //     'contact_form',
+    //     'portfolio_email',
+    //     e.target,
+    //     'user_3kTZWLWPDMYKracgq5h6D'
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
     console.log(fields);
+    resetFields();
   };
 
   const { name, email, message } = fields;
@@ -44,7 +47,7 @@ const Contact = () => {
             placeholder="Name"
             value={name}
             name="name"
-            onChange={handleFieldChange}
+            onChange={setFields}
             required
           />
         </div>
@@ -56,19 +59,20 @@ const Contact = () => {
             placeholder="Email"
             value={email}
             name="email"
-            onChange={handleFieldChange}
+            onChange={setFields}
             required
           />
         </div>
         <div className="contact__form--input">
           <textarea
             id="message"
+            autoComplete="off"
             aria-label="message"
             rows="5"
             placeholder="Message"
             value={message}
             name="message"
-            onChange={handleFieldChange}
+            onChange={setFields}
             required
           />
         </div>

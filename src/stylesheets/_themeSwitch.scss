@@ -160,14 +160,10 @@ body.dark-mode {
   }
 
   .footer {
-    background-color: $primary-color-white-light;
-    color: $color-black;
-    &__logo {
-      content: url(../assets//logo-for-white.svg);
-    }
+    background-color: $color-black-light;
 
     &__icon {
-      color: $color-black;
+      color: $color-white;
       &:hover {
         color: $secondary-color;
       }
