@@ -13,8 +13,9 @@
   }
 
   &__link {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
+    font-family: 'Telex', sans-serif;
     text-decoration: none;
     padding: 15px;
     color: $color-black;
@@ -22,7 +23,7 @@
     &:hover,
     &:active {
       color: $secondary-color;
-      font-size: 19px;
+      font-size: 21px;
       cursor: pointer;
     }
   }
