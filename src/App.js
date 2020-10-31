@@ -10,7 +10,6 @@ import {
   Graphics,
   Contact,
   Footer,
-  Shopify,
 } from './components';
 import analytics from './helpers/analytics';
 
@@ -23,7 +22,6 @@ function App() {
       <SocialMedia />
       <Hero />
       <About />
-
       <Skills />
       <Projects />
       <Graphics />

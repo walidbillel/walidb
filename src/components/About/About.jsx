@@ -14,7 +14,7 @@ const About = () => {
             rel="noreferrer noopener"
             className="about__bio--shopifyLink"
           >
-            Shopify
+            <img src="" className="about__bio--storetasker" alt="storetasker" />
           </a>
         </div>
         <div className="about__bio--info">
