@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
 const Card = ({ title, description, technologies, gitHub, appLink, image }) => {
   return (
     <div className="card">

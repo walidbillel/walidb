@@ -7,6 +7,16 @@ const About = () => {
       <h2 className="about__title">About Me</h2>
       <div className="about__bio">
         <div className="about__bio--stack"></div>
+        <div className="about__bio--shopify">
+          <a
+            href="https://www.storetasker.com/expert/walid-boubguira"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="about__bio--shopifyLink"
+          >
+            Shopify
+          </a>
+        </div>
         <div className="about__bio--info">
           <p>
             I&apos;m Walid Boubguira,{' '}

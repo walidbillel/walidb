@@ -31,15 +31,15 @@ const Contact = () => {
     //       console.log(error.text);
     //     }
     //   );
-    console.log(fields);
+    
     toggle();
     resetFields();
 
-    // show model and thank the user
+    
   };
 
   const { name, email, message } = fields;
-  // console.log(toggle);
+ 
   return (
     <section className="contact">
       <h2 className="contact__title">Contact</h2>

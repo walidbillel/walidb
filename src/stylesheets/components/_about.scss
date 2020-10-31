@@ -18,12 +18,29 @@
       width: 90%;
       margin-top: 30px;
       margin-left: 50px;
-
       background-color: $primary-color;
       position: absolute;
 
       z-index: -1;
     }
+
+    &--shopify {
+      position: absolute;
+      right: 60px;
+      background-color: $primary-color-red-light;
+      height: 100px;
+      width: 100px;
+      z-index: 500;
+      border-radius: 50%;
+      a {
+        text-decoration: none;
+      }
+    }
+
+    &--shopifyLink {
+      @include centerAbsolute;
+    }
+
     &--info {
       @include boxShadow;
       margin: auto;
@@ -54,6 +71,12 @@
       &--stack {
         padding: 120px;
         margin-left: 10px;
+      }
+      &--shopify {
+        right: -10px;
+        top: 5px;
+        width: 80px;
+        height: 80px;
       }
       &--info {
         font-size: 14px;
