@@ -16,30 +16,28 @@ const Contact = () => {
   const { isShowing, toggle } = useModal();
   const submitForm = (e) => {
     e.preventDefault();
-    // emailjs
-    //   .sendForm(
-    //     'contact_form',
-    //     'portfolio_email',
-    //     e.target,
-    //     'user_3kTZWLWPDMYKracgq5h6D'
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
-    
+    emailjs
+      .sendForm(
+        'contact_form',
+        'portfolio_email',
+        e.target,
+        'user_3kTZWLWPDMYKracgq5h6D'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
     toggle();
     resetFields();
-
-    
   };
 
   const { name, email, message } = fields;
- 
+
   return (
     <section className="contact">
       <h2 className="contact__title">Contact</h2>
