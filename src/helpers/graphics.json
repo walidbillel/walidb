@@ -118,5 +118,10 @@
         "id": 24,
         "image": "./graphics-img/techmo.jpg",
         "description": "Techmo Logo"
+    },
+    {
+         "id": 25,
+        "image": "./graphics-img/sitlit.jpg",
+        "description": "SitlitLogo"
     }
 ]

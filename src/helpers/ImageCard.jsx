@@ -15,7 +15,7 @@ const ImageCard = ({ image, description }) => {
   };
 
   return (
-    <div style={{ gridRowEnd: `span ${currentSpan}` }}>
+    <div className="image-zoom" style={{ gridRowEnd: `span ${currentSpan}` }}>
       <img ref={imageRef} src={image} alt={description} />
     </div>
   );
