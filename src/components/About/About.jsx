@@ -9,7 +9,8 @@ const About = () => {
         <div className="about__bio--stack"></div>
         <div className="about__bio--info">
           <p>
-            I'm Walid Boubguira, <strong> A Full-Stack Web Developer. </strong>
+            I&apos;m Walid Boubguira,{' '}
+            <strong> A Full-Stack Web Developer. </strong>
             Self-motivated, with strong written and verbal communication skills
             including English, Arabic and French. <br />
             <br />I enjoy working with teams as well as solo. In my free time, I

@@ -1,5 +1,8 @@
 import React from 'react';
 import useFormFields from '../../helpers/useFormFields';
+import useModal from '../../helpers/useModal';
+import Modal from '../../helpers/Modal';
+
 import emailjs from 'emailjs-com';
 
 const initialState = {
@@ -10,7 +13,7 @@ const initialState = {
 
 const Contact = () => {
   const { fields, setFields, resetFields } = useFormFields(initialState);
-
+  const { isShowing, toggle } = useModal();
   const submitForm = (e) => {
     e.preventDefault();
     // emailjs
@@ -29,13 +32,18 @@ const Contact = () => {
     //     }
     //   );
     console.log(fields);
+    toggle();
     resetFields();
+
+    // show model and thank the user
   };
 
   const { name, email, message } = fields;
+  // console.log(toggle);
   return (
     <section className="contact">
       <h2 className="contact__title">Contact</h2>
+
       <div className="contact__bg"></div>
       <form onSubmit={submitForm} className="contact__form">
         <div className="contact__form--input">
@@ -82,6 +90,7 @@ const Contact = () => {
           </button>
         </div>
       </form>
+      <Modal isShowing={isShowing} hide={toggle} />
     </section>
   );
 };

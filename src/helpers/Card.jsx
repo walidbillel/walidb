@@ -12,12 +12,12 @@ const Card = ({ title, description, technologies, gitHub, appLink, image }) => {
       </div>
 
       <div className="back">
-        <h4>Techs</h4>
+        <h4>Technologies</h4>
         <p>{technologies}</p>
 
         <a href={gitHub} target="_blank" rel="noopener noreferrer">
           <button>
-            <span>GitHub</span>
+            <span>Code</span>
           </button>
         </a>
         <a href={appLink} target="_blank" rel="noopener noreferrer">
