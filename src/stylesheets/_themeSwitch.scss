@@ -84,6 +84,9 @@ body.dark-mode {
 
     &__btn {
       color: $color-white;
+      &:hover {
+        background-color: $primary-color;
+      }
     }
   }
   .about {
@@ -154,8 +157,22 @@ body.dark-mode {
         }
         button {
           color: $color-white;
+          &:hover {
+            background-color: $primary-color;
+          }
         }
       }
+    }
+  }
+
+  .modal {
+    background-color: $color-white;
+    &__init {
+      background: $color-black-light;
+    }
+
+    &__text {
+      color: $color-white;
     }
   }
 
