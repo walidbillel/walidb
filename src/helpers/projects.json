@@ -93,7 +93,7 @@
         "id": 11,
         "projectName": "Covid Tracker",
         "description": "React app built with hooks displaying the current covid data.",
-        "technologies": "Javascript, ES6, CSS",
+        "technologies": "Javascript, ES6, React, CSS",
         "gitHub": "https://github.com/walidbillel/covid-19-tracker",
         "appLink": "https://covid19-stats-details.netlify.app/",
         "image": "./projects-img/covid.jpg"
