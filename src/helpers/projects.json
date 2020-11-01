@@ -88,5 +88,14 @@
         "gitHub": "https://github.com/walidbillel/Train-Scheduler-",
         "appLink": "https://walidbillel.github.io/Train-Scheduler-/",
         "image": "./projects-img/train.jpg"
+    },
+    {
+        "id": 11,
+        "projectName": "Covid Tracker",
+        "description": "React app built with hooks displaying the current covid data.",
+        "technologies": "Javascript, ES6, CSS",
+        "gitHub": "https://github.com/walidbillel/covid-19-tracker",
+        "appLink": "https://covid19-stats-details.netlify.app/",
+        "image": "./projects-img/covid.jpg"
     }
 ]
