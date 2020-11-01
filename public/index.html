@@ -53,39 +53,5 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-
-    <!-- Storing Dark/Light Mode on localStorage -->
-    <script>
-      (function () {
-        var storedKey = 'darkMode';
-        var darkModeClass = 'dark-mode';
-        var lightModeClass = 'light-mode';
-
-        function setClassOnBody(cx) {
-          document.body.classList.add(cx ? darkModeClass : lightModeClass);
-          document.body.classList.remove(cx ? lightModeClass : darkModeClass);
-        }
-
-        var localStorageTheme = localStorage.getItem(storedKey);
-        if (localStorageTheme !== null) {
-          JSON.parse(localStorageTheme);
-          setClassOnBody(localStorageTheme);
-        } else if (
-          window.matchMedia('(prefers-color-scheme: dark)').media ===
-          '(prefers-color-scheme: dark)'
-        ) {
-          setClassOnBody(window.matchMedia('(prefers-color-scheme: dark)'));
-          localStorage.setItem(
-            storedKey,
-            window.matchMedia('(prefers-color-scheme: dark)')
-          );
-        } else {
-          var darkModeIsEnabled = document.body.classList.contains(
-            darkModeClass
-          );
-          localStorage.setItem(storedKey, JSON.stringify(darkModeIsEnabled));
-        }
-      })();
-    </script>
   </body>
 </html>
